@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" version="1.0">
+    <content src="index.html" type="text/html" />
+    <icon src="favicon.png" />
+    <name>Min widget</name>
+    <description>Det här är min nya widget!</description>
+    <author href="http://weblogs.asp.net/mikaelsoderstrom" email="vimpyboy@msn.com">Mikael Söderström</author>
+    <access network="true" />
+</widget>

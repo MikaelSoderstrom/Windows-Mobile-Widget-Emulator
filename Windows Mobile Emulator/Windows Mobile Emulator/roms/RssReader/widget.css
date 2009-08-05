@@ -1,0 +1,61 @@
+﻿body
+{
+    background-color: #ccc;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+h1
+{
+    background-color: #fff;
+    color: #000;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+li
+{
+    background-color: #fff;
+    border: 1px solid #777;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+ul#feeds li
+{
+    background-color: #444;
+    border-color: #aaa;
+    margin: 0px;
+}
+
+ul#feeds li a
+{
+    display: block;
+    color: #fff;
+}
+
+ul#feeditems h2
+{
+    margin: 0px;
+}
+
+ul#feeditems span
+{
+    display: block;
+}
+
+ul#feeditems span.rss-date
+{
+    font-style: italic;
+}
