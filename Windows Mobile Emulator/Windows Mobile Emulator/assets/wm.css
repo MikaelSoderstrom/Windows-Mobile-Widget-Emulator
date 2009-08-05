@@ -1,0 +1,66 @@
+﻿body
+{
+    background-color: #000;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#container
+{
+    margin: 0px auto;
+    width: 480px;
+}
+
+#container iframe
+{
+    display: block;
+}
+
+#container input
+{
+    background-color: #000;
+    border: 0px;
+    color: #fff;
+}
+
+#container #leftKey
+{
+    float: left;
+}
+
+#container #rightKey
+{
+    float: right;
+}
+
+#menus a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+#menus
+{
+}
+
+#menus ul
+{
+    background-color: #fff;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 480px;
+    display: none;
+}
+
+#menus ul li
+{
+    list-style-type: none;
+    padding: 5px 8px 5px 5px;
+}
+
+#menus ul li a
+{
+    display: block;
+}
