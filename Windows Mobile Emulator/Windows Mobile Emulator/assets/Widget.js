@@ -7,7 +7,7 @@
 
 //        if (this[i] && typeof this[i] == "object") {
 //            newObj[i] = this[i].Copy();
-//        }
+//        } 
 //        else
             newObj[i] = this[i];
     }

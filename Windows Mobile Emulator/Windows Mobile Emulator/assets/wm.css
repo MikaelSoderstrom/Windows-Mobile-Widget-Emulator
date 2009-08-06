@@ -5,10 +5,49 @@
     font-size: 12px;
 }
 
+h1
+{
+    color: #fff;
+    display: none;
+}
+
 #container
 {
     margin: 0px auto;
-    width: 480px;
+}
+
+#container div
+{
+    float: left;
+}
+
+#container div#emulatorInformationContainer
+{
+    background-color: #fff;
+    width: 200px;
+    margin-right: 3px;
+    padding: 5px;
+}
+
+#container div#emulatorInformationContainer ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container div#emulatorInformationContainer ul li
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#container div#emulatorInformationContainer ul li .type
+{
+    font-weight: bold;
+    width: 80px;
+    display: block;
+    float: left;
 }
 
 #container iframe
@@ -63,4 +102,9 @@
 #menus ul li a
 {
     display: block;
+}
+
+.showMode
+{
+    margin-top: 5px;
 }
